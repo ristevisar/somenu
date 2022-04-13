@@ -16,7 +16,7 @@ from gi.repository import Gtk, Gio, GLib, GMenu, Gdk
 import os.path
 
 MENU_CONFIG = "/etc/xdg/menus/applications.menu"
-ICON_SIZE = 48
+ICON_SIZE = 32
 FOLDER_ICON = Gio.ThemedIcon.new('folder')
 APP_ICON = Gio.ThemedIcon.new('utilities-terminal')
 
